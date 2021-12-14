@@ -10,13 +10,14 @@ var r = [];
 let n;
 let x;
 var qntRep = 1;
+
 function start(){
     botaoStart.style.display = 'none';
     n = 0;
-    for (let i = 0; i < qntRep; i++) {
-        r.push(Math.ceil(Math.random()*9));
-          
-    }
+    
+    r.push(Math.ceil(Math.random()*9));
+        
+   
     let interval = setInterval(() =>{
         
         if(n === qntRep) {
@@ -24,12 +25,12 @@ function start(){
             blockButton.style.display = "none";
         }
         piscaLuzes();
-       
+        
         x = r[n]-1
-        n = n+ 1;
+        n++;
     },1300)
         
-    
+    console.log(r)
 
 }
 
@@ -61,7 +62,6 @@ function resposta(num){
         acendeLuz(acertos);
         console.log(acertos);
         qntRep++;
-        r = [];
         blockButton.style.display = "";
         start();
     }
