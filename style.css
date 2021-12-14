@@ -7,7 +7,7 @@ body{
 }
 .button{
     font-size: 2rem;
-    padding: 10px 20px;
+    padding: 10px 28px;
     margin-top: 10px;
     cursor: pointer;
     border: none;
@@ -79,4 +79,28 @@ body{
     position: absolute;
     top: 200px;
     opacity: 0;
+}
+.link{
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    margin-top: 10px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.link-easy{
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(59, 146, 226);
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: 700;
 }

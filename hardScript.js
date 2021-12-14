@@ -20,7 +20,10 @@ function start(){
     botaoStart.style.display = 'none';
     n = 0;
     
-    r.push(Math.ceil(Math.random()*9));
+    for (let i = 0; i < qntRep; i++) {
+        r.push(Math.ceil(Math.random()*9));
+    }
+    
         
    
     let interval = setInterval(() =>{
@@ -67,6 +70,7 @@ function resposta(num){
         acendeLuz(acertos);
         console.log(acertos);
         qntRep++;
+        r=[];
         blockButton.style.display = "";
         start();
     }
