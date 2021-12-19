@@ -23,8 +23,6 @@ function start(){
     for (let i = 0; i < qntRep; i++) {
         r.push(Math.ceil(Math.random()*9));
     }
-    
-        
    
     let interval = setInterval(() =>{
         

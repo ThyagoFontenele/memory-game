@@ -3,7 +3,8 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-image: url('https://wallpaperaccess.com/full/17520.jpg');
+    background: linear-gradient(#9198e5, #e66465);
+    height: 100vh;
 }
 .button{
     font-size: 2rem;
@@ -12,8 +13,9 @@ body{
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color:  rgb(36, 194, 63);
-    color: #5c5c5c;
+    background-color:  rgb(36, 50, 175);
+    color: #ffffff;
+    box-shadow: 0px 2px 2px 2px #44444467;
 }
 .container{
     display: grid;
@@ -32,7 +34,7 @@ body{
     background-color: #ffffff;
     cursor: pointer;
     border-radius: 2px;
-    
+    box-shadow: 0px 2px 2px 2px #44444467;
 }
 .botao:hover{
     background-color: #adadad;
@@ -44,14 +46,18 @@ body{
     display: flex;
     height: 40px;
     margin-top: 30px;
+    box-shadow: 0px 2px 2px 2px #44444467;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
 }
 .luz{
     background-color: #fff;
     width: 40px;
     height: 40px;
-    border: 2px solid #21e1e7;
     border-radius: 50%;
     margin-right: 5px;
+    box-shadow: 0px 2px 2px 2px #44444467;
 }
 #lose{
     background-color: red;
@@ -61,6 +67,7 @@ body{
     top: 200px;
     padding: 200px 100px;
     border-radius: 5px;
+    box-shadow: 0px 2px 2px 2px #44444467;
 
 }
 #win{
@@ -71,6 +78,7 @@ body{
     padding: 200px 100px;
     border-radius: 5px;
     background-color: greenyellow;
+    box-shadow: 0px 2px 2px 2px #44444467;
 }
 .blockButtons{
     background-color: yellow;
@@ -86,11 +94,12 @@ body{
     display: block;
     margin-top: 10px;
     color: white;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.815);
     text-align: center;
     padding: 10px 10px;
     border-radius: 5px;
     font-weight: 700;
+    box-shadow: 0px 2px 2px 2px #44444467;
 }
 .link-easy{
     text-decoration: none;
@@ -103,4 +112,5 @@ body{
     padding: 10px 10px;
     border-radius: 5px;
     font-weight: 700;
+    box-shadow: 0px 2px 2px 2px #44444467;
 }
