@@ -33,9 +33,6 @@ body{
     border-radius: 2px;
     box-shadow: 0px 2px 2px 2px #44444467;
 }
-.botao:hover{
-    background-color: #adadad;
-}
 .botao:active{
     background-color: rgb(0, 0, 0);
 }
