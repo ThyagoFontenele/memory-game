@@ -2,9 +2,8 @@ var botaoStart = document.querySelector(".button");
 var win = document.querySelector('#win');
 var lose = document.querySelector('#lose');
 var blockButton = document.querySelector('.blockButtons');
-
-//win.style.display = 'none';
-//lose.style.display = 'none';
+win.style.display = 'none';
+lose.style.display = 'none';
 var botoes = document.querySelectorAll('.botao');
 var r = [];
 let n;
