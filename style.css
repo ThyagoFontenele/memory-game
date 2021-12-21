@@ -73,7 +73,6 @@ body{
 #win{
     background-color: rgb(136, 206, 31);
     color: white;
-    opacity: 0;
 }
 .blockButtons{
     position: absolute;
