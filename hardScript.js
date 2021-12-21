@@ -35,7 +35,6 @@ function start(){
         n++;
     },1300)
         
-    console.log(r)
 
 }
 
@@ -65,7 +64,6 @@ function resposta(num){
         numeroSequencia = 0;
         acertos++;
         acendeLuz(acertos);
-        console.log(acertos);
         qntRep++;
         r=[];
         blockButton.style.display = "";

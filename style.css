@@ -2,13 +2,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background: linear-gradient(#9198e5, #e66465);
     height: 100vh;
 }
 .button{
     font-size: 2.2rem;
     padding: 10px 50px;
-    margin-top: 50px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
@@ -164,7 +164,6 @@ body{
     .button{
         font-size: 1.5rem;
         padding: 10px 70px;
-        margin-top: 50px;
         cursor: pointer;
         border: none;
         border-radius: 5px;
